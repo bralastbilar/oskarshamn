@@ -15,7 +15,7 @@ while True:
         print('ALLT ÄR FAN SKIT!')
         time.sleep(1)
         print('Nästan iaf!!!')
-        sys exit
+        sys.exit()
     elif not answer == ('nej'):
         print('Vi som vet vi vet...')
         time.sleep(2)
