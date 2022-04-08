@@ -1,5 +1,5 @@
 import time
-#import sys
+import sys
 while True:
 
 
@@ -14,10 +14,8 @@ while True:
         time.sleep(2)
         print('ALLT ÄR FAN SKIT!')
         time.sleep(1)
-        print('PRECIS ALLT!!!')
-        #sys.exit()
-        time.sleep(1)
-        print('Alltihop...')
+        print('Nästan iaf!!!')
+        sys exit
     elif not answer == ('nej'):
         print('Vi som vet vi vet...')
         time.sleep(2)
