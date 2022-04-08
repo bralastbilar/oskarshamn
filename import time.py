@@ -1,4 +1,5 @@
 import time
+import sys
 while True:
 
 
@@ -14,6 +15,7 @@ while True:
         print('ALLT ÄR FAN SKIT!')
         time.sleep(1)
         print('PRECIS ALLT!!!')
+        sys.exit()
         time.sleep(1)
         print('Alltihop...')
     elif not answer == ('nej'):
